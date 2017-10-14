@@ -1,0 +1,108 @@
+*** NON-FATAL INTERNAL ERROR in Environment ***
+Date: Oct 14 2017 12:16 AM
+
+File Name: F:\ICS2017\Programs\turing.exe
+Version: 4.1.1
+File Size: 2441303
+File Date: Sep 5 2017 9:59 PM
+Operating System: Bad OS Value (0)
+JVM: "assert" Statements: enabled
+
+
+Previous Operations:
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "F:\ICS2017\Turing\Practice and Lessons\13th October\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = Unable to load "F:\ICS2017\Programs\Support\Bin\lang.dll" (6057)
+   Windows error = The specified module could not be found. (126)
+   File = P:\ready\src\edprog.c
+   Line = 95
+
+List of Modules: 
+    F:\ICS2017\Programs\turing.exe
+    C:\WINDOWS\SYSTEM32\ntdll.dll
+    C:\WINDOWS\System32\KERNEL32.DLL
+    C:\WINDOWS\System32\KERNELBASE.dll
+    C:\WINDOWS\System32\USER32.dll
+    C:\WINDOWS\System32\win32u.dll
+    C:\WINDOWS\System32\GDI32.dll
+    C:\WINDOWS\System32\gdi32full.dll
+    C:\WINDOWS\System32\msvcp_win.dll
+    C:\WINDOWS\SYSTEM32\VERSION.dll
+    C:\WINDOWS\System32\ucrtbase.dll
+    C:\WINDOWS\SYSTEM32\WINMM.dll
+    C:\WINDOWS\System32\comdlg32.dll
+    C:\WINDOWS\System32\msvcrt.dll
+    C:\WINDOWS\System32\combase.dll
+    C:\WINDOWS\System32\RPCRT4.dll
+    C:\WINDOWS\System32\SspiCli.dll
+    C:\WINDOWS\System32\CRYPTBASE.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.15063.413_none_55bc94a37c2a2854\COMCTL32.dll
+    C:\WINDOWS\System32\bcryptPrimitives.dll
+    C:\WINDOWS\System32\ADVAPI32.dll
+    C:\WINDOWS\System32\sechost.dll
+    C:\WINDOWS\System32\shcore.dll
+    C:\WINDOWS\System32\SHLWAPI.dll
+    C:\WINDOWS\System32\SHELL32.dll
+    C:\WINDOWS\System32\cfgmgr32.dll
+    C:\WINDOWS\System32\windows.storage.dll
+    C:\WINDOWS\System32\kernel.appcore.dll
+    C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+    C:\WINDOWS\System32\powrprof.dll
+    C:\WINDOWS\System32\profapi.dll
+    C:\WINDOWS\SYSTEM32\WININET.dll
+    C:\WINDOWS\System32\IMM32.DLL
+    C:\WINDOWS\system32\uxtheme.dll
+    C:\WINDOWS\System32\MSCTF.dll
+    C:\WINDOWS\System32\OLEAUT32.dll
+    C:\WINDOWS\system32\dwmapi.dll
+    C:\WINDOWS\System32\TextInputFramework.dll
+    C:\WINDOWS\System32\CoreMessaging.dll
+    C:\WINDOWS\System32\CoreUIComponents.dll
+    C:\WINDOWS\SYSTEM32\ntmarta.dll
+    C:\WINDOWS\SYSTEM32\usermgrcli.dll
+    C:\WINDOWS\SYSTEM32\wintypes.dll
+    C:\WINDOWS\System32\ole32.dll
+    C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:77631d3c Ret=74a78802 Frame=0019b0e4 Stack=0019b074
+    Parameters (0x000002ec 0x00003a98 0x00000000 0x0019d994)
+    Unknown module, ZwWaitForSingleObject() + 0012 byte(s)
+  1 .V PC=0023:74a78802 Ret=0041d5f2 Frame=0019b0f8 Stack=0019b0ec
+    Parameters (0x000002ec 0x00003a98 0x0019e2a0 0x0019d9d0)
+    Unknown module, WaitForSingleObject() + 0018 byte(s)
+  2 .V PC=0023:0041d5f2 Ret=0041cbe4 Frame=0019d994 Stack=0019b100
+    Parameters (0x00000000 0x000017a9 0x005257e0 0x0000005f)
+    Unknown module
+  3 .V PC=0023:0041cbe4 Ret=004268f3 Frame=0019d9b8 Stack=0019d99c
+    Parameters (0x000017a9 0x005257e0 0x0000005f 0x0000007e)
+    Unknown module
+  4 .V PC=0023:004268f3 Ret=0041520e Frame=0019e2a0 Stack=0019d9c0
+    Parameters (0x00401000 0x00401000 0xcccccccc 0xcccccccc)
+    Unknown module
+  5 .V PC=0023:0041520e Ret=00401126 Frame=0019fef0 Stack=0019e2a8
+    Parameters (0x00400000 0x00000000 0x00893991 0x00000001)
+    Unknown module
+  6 .V PC=0023:00401126 Ret=740c8744 Frame=0019ff80 Stack=0019fef8
+    Parameters (0x002dc000 0x740c8720 0xd061b193 0x0019ffdc)
+    Unknown module
+  7 .V PC=0023:740c8744 Ret=7762582d Frame=0019ff94 Stack=0019ff88
+    Parameters (0x002dc000 0xf65da1ba 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+  8 .V PC=0023:7762582d Ret=776257fd Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x77646393 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0253 byte(s)
+  9 .V PC=0023:776257fd Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x002dc000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0205 byte(s)
+
+
+------------------------------------------------------
