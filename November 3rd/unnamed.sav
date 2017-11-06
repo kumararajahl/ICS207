@@ -1,0 +1,10 @@
+var word : string
+var newword : string := ""
+var half1 : string := ""
+var half2 : string := ""
+
+put "Please enter a word : " ..
+get word
+
+half1
+newword := length(word)/2
