@@ -1,0 +1,3 @@
+function ispalindrome (word : string) : boolean
+for decreasing i : length(word) .. 1
+
