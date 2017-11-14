@@ -15,8 +15,9 @@ get number
  exit when newnum = 100
  end loop
  */
-newnum += double (number)
-for i : 0 .. 100 by double (number)
-    put i
-end for
+loop
+    number *= 2
+    put number
+    exit when number > 10000
+end loop
 
